@@ -1,6 +1,8 @@
 from rest_framework import serializers
 from .models import Dictionary
 
+# It will take in the Dictionay object as its 
+# argument an returns the serialized data
 
 class DictionarySerializer(serializers.Serializer):
     word = serializers.CharField()
